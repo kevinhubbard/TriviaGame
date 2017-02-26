@@ -1,0 +1,54 @@
+body{
+	background: url(../images/background.jpg);
+}
+h1, #time{
+	color: blue;
+}
+
+h1{
+	font-size: 28px;
+	padding: 1em 1em 1em 1em;
+
+}
+h2{
+	font-size: 24px;
+	padding-bottom: 1em;
+}
+
+#finish{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 960px;
+	background: red;
+	height: 425px;
+
+} 
+#start{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 960px;
+	background: blue;
+	height:425px;
+	font-size: 24px;
+	
+}
+#gameboard{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 960px;
+	background: tan;
+	
+}
+
+form{
+	padding-bottom: 25px;
+}
+
+legend{
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}

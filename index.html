@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  	crossorigin="anonymous"></script>
+	<script type="text/javascript" src='assets/javascript/app.js'></script>
+</head>
+<body>
+	<div class="board" id="gameboard">
+		<h1>Totally Trivial Trivia!</h1>
+		<h2>Time Remaining: <span id="time">120</span> Seconds</h2>
+		<form>
+			<fieldset>
+				<legend>What was Michael Jordans most fameous jersey #?</legend>
+					<input type="radio" name="answer1" id="33">
+						<label for="33">33</label>
+					<input type="radio" name="answer1" id="12">
+						<label for="12">12</label>
+					<input type="radio" name="answer1" id="45">
+						<label for="45">45</label>
+					<input type="radio" name="answer1" id="23">
+						<label for="23">23</label>
+			</fieldset>
+		</form>
+
+		<form>
+			<fieldset>
+				<legend>What mountain is known as the "Beast of the East"?</legend>
+					<input type="radio" name="answer2" id="Killington">
+						<label for="Killington">Killington, Vt</label>
+					<input type="radio" name="answer2" id="mtsnow">
+						<label for="mtsnow">Mount Snow, Vt</label>
+					<input type="radio" name="answer2" id="Stratton">
+						<label for="Stratton">Stratton, Vt</label>
+					<input type="radio" name="answer2" id="loon">
+						<label for="loon">Loon, NH</label>
+			</fieldset>
+		</form>
+
+		<form>
+			<fieldset>
+				<legend>What is New Jerseys best beach?</legend>
+					<input type="radio" name="answer3" id="wildwood">
+						<label for="wildwood">Wildwoods</label>
+					<input type="radio" name="answer3" id="ibsp">
+						<label for="ibsp">Island Beach State Park</label>
+					<input type="radio" name="answer3" id="seasideheights">
+						<label for="seasideheights">Seaside Heights</label>
+					<input type="radio" name="answer3" id="belmar">
+						<label for="belmar">Belmar</label>
+			</fieldset>
+		</form>
+
+		<form>
+			<fieldset>
+				<legend>What is the best job in the world?</legend>
+					<input type="radio" name="answer4" id="1">
+						<label for="1">whatever</label>
+					<input type="radio" name="answer4" id="2">
+						<label for="2">whatever</label>
+					<input type="radio" name="answer4" id="3">
+						<label for="3">whatever</label>
+					<input type="radio" name="answer4" id="web">
+						<label for="web">WEB DEVELOPER!</label>
+			</fieldset>
+		</form>
+
+	</div>
+		<div class="board" id='start' >
+		<p>Ready to start the trivia game?</p>
+		<button id="startGame">Start</button>
+	</div>
+
+	<div id="finish">
+		<p>Times Up!</p>
+		<p>Correct: <span id="correct"></span></p>
+		<p>Incorrect: <span id="wrong"></span></p>
+	</div>
+</body>
+</html>
